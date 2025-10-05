@@ -6,7 +6,7 @@ import alleimaLogo from "@/assets/logos/alleima.jpg";
 import jernkontoretLogo from "@/assets/logos/jernkontoret.jpg";
 import suzukiLogo from "@/assets/logos/suzuki_garphyttan.jpg";
 import swerimLogo from "@/assets/logos/swerim.jpg"
-import bkwLogo from "@/assets/logos/bkw.jpg"
+import bkwLogo from "@/assets/logos/BKW.jpg"
 
 const Partners = () => {
   // Placeholder for partner companies
