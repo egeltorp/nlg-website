@@ -41,7 +41,7 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-lg mb-4">Kontakt</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>femten@b.kth.se</li>
+                <li><a href="mailto:femten@b.kth.se">femten@b.kth.se</a></li>
                 <li>KTH Campus</li>
                 <li>Stockholm, Sverige</li>
               </ul>
@@ -50,8 +50,8 @@ const Footer = () => {
           <div>
               <h4 className="font-semibold text-lg mb-4">Webmaster</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/80">
+                <li><a href="mailto:tholmb@kth.se">tholmb@kth.se</a></li>
                 <li>Theodor Holmberg</li>
-                <li>tholmb@kth.se</li>
               </ul>
             </div>
           </div>

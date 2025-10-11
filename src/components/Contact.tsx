@@ -7,9 +7,10 @@ const Contact = () => {
   const { toast } = useToast();
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:naringsliv@bergs.kth.se";
+    window.location.href = "mailto:femten@b.kth.se";
   };
 
+  /* Irrelevant as of now */
   const handlePhoneClick = () => {
     toast({
       title: "Kontaktinformation",
@@ -36,15 +37,17 @@ const Contact = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
-          <Card className="bg-card/95 backdrop-blur-sm border-primary-foreground/10 p-6 text-center hover:shadow-elegant transition-all hover:scale-100">
+          <a href="mailto:femten@b.kth.se">
+          <Card className="bg-card/95 backdrop-blur-sm border-primary-foreground/10 p-6 text-center hover:shadow-elegant transition-all hover:scale-105">
             <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
               <Mail className="w-6 h-6 text-accent-foreground" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">E-post</h3>
             <p className="text-sm text-muted-foreground">femten@b.kth.se</p>
           </Card>
+          </a>
 
-          <Card className="bg-card/95 backdrop-blur-sm border-primary-foreground/10 p-6 text-center hover:shadow-elegant transition-all hover:scale-100">
+          <Card className="bg-card/95 backdrop-blur-sm border-primary-foreground/10 p-6 text-center hover:shadow-elegant transition-all hover:scale-105">
             <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
               <Phone className="w-6 h-6 text-accent-foreground" />
             </div>
@@ -52,13 +55,15 @@ const Contact = () => {
             <p className="text-sm text-muted-foreground">Tillgänglig vid förfrågan</p>
           </Card>
 
-          <Card className="bg-card/95 backdrop-blur-sm border-primary-foreground/10 p-6 text-center hover:shadow-elegant transition-all hover:scale-100">
+          <a href="https://maps.app.goo.gl/LELGJuV3EDr4igPj6">
+          <Card className="bg-card/95 backdrop-blur-sm border-primary-foreground/10 p-6 text-center hover:shadow-elegant transition-all hover:scale-105">
             <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-6 h-6 text-accent-foreground" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">Plats</h3>
             <p className="text-sm text-muted-foreground">KTH Campus, Stockholm</p>
           </Card>
+          </a>
         </div>
 
         <div className="text-center">
