@@ -76,7 +76,7 @@ const Services = () => {
     {
       icon: PartyPopper,
       title: "Sittningar & Event",
-      description: "Bergssektionen arrangerar flera stora sittningar, bland annat Bergslusse och Vårbalen, där företag får möjlighet att synas och nätverka med studenter och alumner i en festlig miljö. Som sponsor kan ni marknadsföra ert företag och bygga värdefulla relationer under dessa välbesökta evenemang. </>",
+      description: "Bergssektionen arrangerar flera stora sittningar, bland annat Bergslusse och Vårbalen, där företag får möjlighet att synas och nätverka med studenter och alumner i en festlig miljö. Som sponsor kan ni marknadsföra ert företag och bygga värdefulla relationer under dessa välbesökta evenemang.",
       benefits: ["Exklusiv exponering", "Nätverkande i festlig miljö", "Starka relationer med studenter och alumner"],
     }
   ];
