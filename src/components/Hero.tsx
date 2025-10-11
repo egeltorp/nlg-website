@@ -27,7 +27,7 @@ const Hero = () => {
           <img 
           src={nlgLogo}
           alt="Logo"
-          className="mx-auto mb-1 w-[12rem] md:w-[24rem] h-auto brightness-0 invert"
+          className="mx-auto mb-1 w-[20rem] md:w-[24rem] h-auto brightness-0 invert"
           />
 
 
@@ -35,7 +35,7 @@ const Hero = () => {
             Näringslivsgruppen
           </h1>
           <div className="w-24 h-1 bg-accent mx-auto mb-8" />
-          <p className="text-xl md:text-2xl text-primary-foreground/85 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="hidden md:block text-xl md:text-2xl text-primary-foreground/85 mb-12 max-w-3xl mx-auto leading-relaxed">
           Näringslivsgruppen (NLG) vid Bergssektionen på KTH arbetar aktivt för att skapa och stärka samarbeten mellan våra studenter och näringslivet
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
