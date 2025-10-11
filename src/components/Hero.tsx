@@ -27,11 +27,11 @@ const Hero = () => {
           <img 
           src={nlgLogo}
           alt="Logo"
-          className="mx-auto mb-1 w-96 h-auto brightness-0 invert"
+          className="mx-auto mb-1 w-[12rem] md:w-[24rem] h-auto brightness-0 invert"
           />
 
 
-          <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground mb-8 leading-tight">
+          <h1 className="font-display text-4xl md:text-7xl font-bold text-primary-foreground mb-8 leading-tight">
             Näringslivsgruppen
           </h1>
           <div className="w-24 h-1 bg-accent mx-auto mb-8" />
@@ -60,7 +60,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+      <div className="hidden md:block md:absolute md:bottom-8 md:left-1/2 md:-translate-x-1/2 md:z-10 md:animate-bounce">
         <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex justify-center p-2">
           <div className="w-1 h-3 bg-primary-foreground/50 rounded-full" />
         </div>
