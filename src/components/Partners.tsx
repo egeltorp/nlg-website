@@ -36,13 +36,13 @@ const Partners = () => {
           {partners.map((partner, index) => (
             <Card 
               key={index}
-              className="bg-card border-border p-8 flex items-center justify-center hover:shadow-elegant transition-all duration-300 hover:scale-105 min-h-[160px]"
+              className="bg-card border-border p-8 flex items-center justify-center hover:shadow-elegant transition-all duration-300 grayscale hover:grayscale-0 hover:scale-105 min-h-[160px]"
             >
               {partner.logo ? (
                 <img 
                   src={partner.logo} 
                   alt={`${partner.name} logo`}
-                  className="max-w-full max-h-20 object-contain grayscale hover:grayscale-0 transition-all"
+                  className="max-w-full max-h-20 object-contain transition-all"
                 />
               ) : (
                 <div className="text-center">
