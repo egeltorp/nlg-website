@@ -35,6 +35,11 @@ const Footer = () => {
                     Kontakt
                   </a>
                 </li>
+                <li>
+                  <a href="https://bergssektionen.se/" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                    Bergssektionen
+                  </a>
+                </li>
               </ul>
             </div>
             
