@@ -4,59 +4,77 @@
 
 @layer base {
   :root {
+    /* Base Colors */
     --background: 0 0% 100%;
     --foreground: 210 20% 10%;
     --card: 0 0% 100%;
     --card-foreground: 210 20% 10%;
     --popover: 0 0% 100%;
     --popover-foreground: 210 20% 10%;
-    --primary: 207.88 40.08% 24%;
+
+    /* Primary Palette (based on hsl(208, 40%, 48%)) */
+    --primary: 208 40% 40%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 207.88 40.08% 38%;
-    --secondary: 210 10% 96%;
+    --primary-light: 208 40% 60%;
+    --primary-dark: 208 40% 36%;
+
+    /* Supporting Colors */
+    --secondary: 210 12% 96%;
     --secondary-foreground: 210 15% 15%;
-    --muted: 210 12% 94%;
+    --muted: 210 10% 93%;
     --muted-foreground: 208 15% 38%;
-    --accent: 207.88 15% 45%;
+    --accent: 208 30% 56%;
     --accent-foreground: 0 0% 100%;
-    --footer: 207.88 25% 22%;
+    --footer: 208 30% 25%;
     --footer-foreground: 0 0% 100%;
+
+    /* Status Colors */
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
+
+    /* Borders & UI */
     --border: 210 15% 85%;
     --input: 210 15% 85%;
-    --ring: 207.88 40.08% 28%;
+    --ring: 208 40% 40%;
     --radius: 0.75rem;
-    --gradient-primary: linear-gradient(135deg, hsl(207.88 40.08% 35%), hsl(207.88 40.08% 27%));
-    --gradient-accent: linear-gradient(135deg, hsl(207.88 15% 45%), hsl(207.88 20% 55%));
+
+    /* Gradients & Shadows */
+    --gradient-primary: linear-gradient(135deg, hsl(208 40% 55%), hsl(208 40% 40%));
+    --gradient-accent: linear-gradient(135deg, hsl(208 30% 50%), hsl(208 35% 60%));
     --shadow-elegant: 0 10px 40px -10px rgba(40, 60, 90, 0.15);
     --shadow-strong: 0 20px 60px -15px rgba(35, 50, 75, 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
+    /* Dark Mode */
     --background: 210 25% 10%;
     --foreground: 0 0% 98%;
     --card: 210 25% 13%;
     --card-foreground: 0 0% 98%;
     --popover: 210 25% 13%;
     --popover-foreground: 0 0% 98%;
-    --primary: 207.88 40.08% 40%;
+
+    /* Primary dark theme colors */
+    --primary: 208 40% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 207.88 40.08% 50%;
+    --primary-light: 208 40% 70%;
+    --primary-dark: 208 40% 50%;
+
     --secondary: 210 20% 18%;
     --secondary-foreground: 0 0% 98%;
     --muted: 210 15% 22%;
-    --muted-foreground: 207.88 15% 70%;
-    --accent: 207.88 15% 50%;
+    --muted-foreground: 208 15% 70%;
+    --accent: 208 30% 55%;
     --accent-foreground: 0 0% 100%;
-    --footer: 207.88 25% 15%;
+    --footer: 208 30% 18%;
     --footer-foreground: 0 0% 98%;
+
     --destructive: 0 60% 38%;
     --destructive-foreground: 0 0% 98%;
     --border: 210 25% 18%;
     --input: 210 25% 18%;
-    --ring: 207.88 40.08% 40%;
+    --ring: 208 40% 55%;
   }
 }
 
